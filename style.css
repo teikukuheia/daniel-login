@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 }
 .background {
     width: 50vw;
-    height: 979px;
+    height: 100vh;
     background: url("background.png") no-repeat;
     background-size: cover;
 }
@@ -107,5 +107,19 @@ input[type=checkbox]{
 @media screen and (max-width: 829px){
     .background {
         width: 0;
+        height: 0;
+    }
+    .login-content {
+        margin: 45px auto;
+    }
+    .login {
+        font-size: 1.4rem;
+    }
+    .input-content p {
+        font-size: 0.9rem;
+    }
+    input[type="text"], input[type="password"]{-webkit-appearance: none;}
+    .register {
+        margin-top: inherit;
     }
 }
