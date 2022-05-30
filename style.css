@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+.flex-canvas {
+    display: flex;
+}
+.background {
+    width: 50vw;
+    height: 979px;
+    background: url("background.png") no-repeat;
+    background-size: cover;
+}
+.login-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    height: 620px;
+}
+.welcome-back, .login {
+    margin: 2px 0;
+}
+.login {
+    color: #1A202C;
+}
+p {
+    color: #2D3748;
+    font-weight: 500;
+}
+input[type=text], input[type=password] {
+    border: 1px solid #E8E8E8;
+    height: 50px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #2D3748;
+    font-size: 14px;
+}
+input[type=checkbox]{
+    margin: 0 10px;
+}
+.additional-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.forgot-password {
+    margin-left: auto;
+}
+.link {
+    color: #2C5282;
+    font-weight: 600;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.pointer {
+    cursor: pointer;
+}
+.remember {
+    display: flex;
+    align-items: center;
+}
+.social {
+    margin: 0 10px;
+}
+.button {
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 15px 0;
+    color: #fff;
+    font-weight: 500;
+    align-items: center
+}
+.login-main-button {
+    background: #04C35C;
+}
+.social-network-login {
+    background: #2D3748;
+}
+.register {
+    margin: 0 auto;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.notice {
+    margin: 0 10px;
+}
