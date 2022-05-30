@@ -20,7 +20,6 @@ body::-webkit-scrollbar {
     width: 50vw;
     height: 100vh;
     background: url("background.png") no-repeat;
-    background-size: cover;
 }
 .login-content {
     display: flex;
