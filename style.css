@@ -9,7 +9,7 @@ body {
     padding: 0;
     font-family: "Poppins", sans-serif;
     overflow: hidden;
-    min-width: 850px;
+    /* min-width: 850px; */
 }
 .flex-canvas {
     display: flex;
@@ -101,4 +101,9 @@ input[type=checkbox]{
 }
 .notice {
     margin: 0 10px;
+}
+@media screen and (max-width: 829px){
+    .background {
+        width: 0;
+    }
 }
