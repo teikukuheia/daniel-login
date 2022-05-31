@@ -1,0 +1,30 @@
+{
+    "ru": {
+        "welcome_back": "Добро пожаловать",
+        "switch_light": "Светлая тема",
+        "switch_dark": "Темная тема",
+        "login_text": "Войти в аккаунт",
+        "email": "Почта",
+        "password": "Пароль",
+        "remember_me": "Не выходить",
+        "restore": "Забыли пароль?",
+        "login_main": "Войти",
+        "login_social": "<img class='social' src='google.svg'>Войти с помощью Google",
+        "register_notice": "Нет аккаунта?",
+        "register_text": "Зарегестрироваться"
+    },
+    "en": {
+        "welcome_back": "Welcome back",
+        "switch_light": "Light theme",
+        "switch_dark": "Dark theme",
+        "login_text": "Login to your account",
+        "email": "Email",
+        "password": "Password",
+        "remember_me": "Remember me",
+        "restore": "Forgot password?",
+        "login_main": "Login now",
+        "login_social": "<img class='social' src='google.svg'>Or sign-in with Google",
+        "register_notice": "Don't have an account?",
+        "register_text": "Join free today"
+    }
+}
