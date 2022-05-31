@@ -10,6 +10,7 @@ body {
     font-family: "Poppins", sans-serif;
     overflow: hidden;
     /* min-width: 850px; */
+    transition: .3s;
 }
 .flex-canvas {
     display: flex;
@@ -23,8 +24,8 @@ body {
 .login-content {
     display: flex;
     flex-direction: column;
-    margin: auto;
     justify-content: center;
+    margin: auto;
     height: 620px;
 }
 .welcome-back, .login {
@@ -45,6 +46,9 @@ input[type=text], input[type=password] {
     border-radius: 5px;
     color: #2D3748;
     font-size: 14px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
 }
 input[type=checkbox]{
     margin: 0 10px;
@@ -84,7 +88,11 @@ input[type=checkbox]{
     margin: 15px 0;
     color: #fff;
     font-weight: 500;
-    align-items: center
+    align-items: center;
+    user-select: none;
+}
+.button:hover {
+    filter: brightness(105%);
 }
 .login-main-button {
     background: #04C35C;
@@ -102,8 +110,52 @@ input[type=checkbox]{
 .notice {
     margin: 0 10px;
 }
+@media screen and (max-height: 768px){
+    .login-content {
+        margin: 2vh auto;
+    }
+}
 @media screen and (max-width: 829px){
     .background {
         width: 0;
     }
+    .login {
+        font-size: 1.4em;
+    }
+}
+@media screen and (hover: none){
+    .login-content {
+        margin: 2vh auto;
+    }
+}
+.dark-theme-button {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    margin-left: auto;
+}
+.dark-theme-button img {
+    height: 20px;
+    margin-left: 20px;
+}
+.light-theme-button {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    margin-left: auto;
+}
+.light-theme-button img {
+    height: 20px;
+    margin-left: 20px;
+}
+.dark-mode {
+    background: #121212;
+}
+.dark-mode h1, .dark-mode p {
+    color: white;
+}
+.dark-mode input[type=text], .dark-mode input[type=password] {
+    background: #121212;
+    border: 1px solid rgba(255,255,255,0.04);
+    color: white;
 }
